@@ -27,9 +27,10 @@ if user_name=="pruthvi" and pin==1234:
             else:
                 print("Insufficient Funds...")
         elif choice==4:
-            print("Thank Your for using our ATM Services")
+            print("Thank Your for using our ManaCoders ATM Services")
             break
         else:
             print("Invalid Choice...please chooose (1-4)")
 else:
     print("Authentication failed...Invalid username or pin")
+    print("Please Check Username or PIn number")
